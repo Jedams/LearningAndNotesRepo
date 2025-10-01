@@ -1,0 +1,14 @@
+git branch
+      lists branches
+git branch <Name>
+    creates a new branch with Name
+
+git switch <BranchName>
+    Move to the <BranchName>
+git switch -c <Name> <TagName>
+    C(c)reates a branch ith <Name> copying <TagName>
+git tag -l 
+    Lists tags in* Current branch???*
+git branch -r 
+    Lists remote branches
+gitgit di
