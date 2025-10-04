@@ -10,5 +10,14 @@ git switch -c <Name> <TagName>
 git tag -l 
     Lists tags in* Current branch???*
 git branch -r 
-    Lists remote branches
-gitgit di
+    Lists remote branch
+
+            ||Creating Folder and INITINGIT||
+
+cd <Parent folder name>
+mkdir <$repositoryName>
+cd <$repositoryName>
+git init 
+        This will create  folder and the create
+         a local git repository in that folder
+
