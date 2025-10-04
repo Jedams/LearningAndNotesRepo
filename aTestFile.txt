@@ -1,2 +1,4 @@
             Purpose of TEST
 This is to test push and merging of branches from terminal to github
+
+This has been merged from test/github-branch and that branch has been deleted
