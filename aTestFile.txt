@@ -1,0 +1,2 @@
+            Purpose of TEST
+This is to test push and merging of branches from terminal to github
