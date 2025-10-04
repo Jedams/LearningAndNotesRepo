@@ -1,3 +1,33 @@
+            GIT BASICS
+git add . / git add <FileName>
+    Adds files to staging area. The "." Option stages all files
+    or you can name specific files
+git status
+    Will list what files are staged and read for commit
+    and which files have been changed but not been staged.
+git diff <>
+    Shows chanegs from previous commit and current files. 
+    
+
+            Pulling Pushing and other things
+    Overview of a problem
+        Initially we used git init on a local folder to initilise  repo - we seperately created a 
+        a github repo at a later date and tried to merge
+        the two repos. This had an error that we could not 
+        update repos with unrelated histories. 
+        This was resolved with using
+        git checkout <onlineMain>
+        git merge <localMaster> --allow-unrelated-histories
+git pull 
+    a combination of Fetch (from origin URL) and merge
+    updates working directory and syncs with origin
+git push origin
+    push working directory files to origin
+
+
+
+
+
 git branch
       lists branches
 git branch <Name>
